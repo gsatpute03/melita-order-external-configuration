@@ -4,3 +4,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+    exchange:
+      name: melita.order.exchange
+    queue:
+      name: melita.order.queue
+    routing:
+      key: order.create
