@@ -1,5 +1,7 @@
 order:
   message: This is a message from OAS.yml
+server:
+  port: 8081
 spring:
   rabbitmq:
     host: localhost
