@@ -15,17 +15,10 @@ spring:
       name: melita.order.queue
     routing:
       key: order.create
-
-  # Datasource configuration - PostgreSQL
-  datasource:
-    url: jdbc:postgresql://localhost:5432/order_process
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
-    
+   
 # Flyway configuration - PostgreSQL
   flyway:
     baseline-on-migrate: true
-    schemas: melita_order
+    schemas: order_process
     locations: classpath:db/flyway/migration  
   
