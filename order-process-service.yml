@@ -15,7 +15,7 @@ spring:
     routing:
       key: order.create
   datasource:
-    url: jdbc:postgresql://localhost:5432/order_process
+    url: jdbc:postgresql://localhost/order_process
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
