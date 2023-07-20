@@ -23,4 +23,12 @@ spring:
     baseline-on-migrate: true
     schemas: order_process
     locations: classpath:db/flyway/migration  
-  
+    
+# Email Configurations
+  email:
+    host: smtp.gmail.com
+    port: 587
+    username: give username here
+    password: give password here
+    emailFrom: give sender email here
+    emailTo: give
