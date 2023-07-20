@@ -16,11 +16,8 @@ spring:
       name: melita.order.queue
     routing:
       key: order.create
-  cloud:
-    gateway:
-      routes:
-        - id: order-accept-service
-          predicates:
-            - Path=/orders
-          filters:
-            - JwtAuthenticationFilter
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_security
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
