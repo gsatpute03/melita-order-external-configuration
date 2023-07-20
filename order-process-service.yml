@@ -33,3 +33,7 @@ spring:
     emailFrom: give sender email here
     emailTo: give receiver email here
     subject: Melita customer order for review/approval
+
+# Email Configurations
+  fulfilment:
+    url:  http://localhost:8083/orderfulfilment
