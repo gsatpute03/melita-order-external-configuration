@@ -31,4 +31,5 @@ spring:
     username: give username here
     password: give password here
     emailFrom: give sender email here
-    emailTo: give
+    emailTo: give receiver email here
+    subject: Melita customer order for review/approval
